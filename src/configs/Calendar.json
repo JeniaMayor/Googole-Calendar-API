@@ -1,0 +1,9 @@
+{
+  "SCOPES": [
+    "https://www.googleapis.com/auth/calendar"
+  ],
+  "SERVICE_NAME": "calendar",
+  "VERSION": "v3",
+  "TIME_ZONE": "Asia/Jerusalem",
+  "DEFAULT_LOCATION": "עופר גרנד קניון ב״שDavid Tuvyahu Boulevard 125, Be'er Sheva, Israel"
+}

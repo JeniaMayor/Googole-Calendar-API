@@ -1,4 +1,4 @@
-
+import axios from 'axios';
 
 
 const Shift = () => {
@@ -9,9 +9,13 @@ const Shift = () => {
         console.log(ev.target.date.value);
         console.log(ev.target.employee[0].value);
 
+        const body = {
+            name:'yakov'
+        }
 
 
 
+        const result = axios.post('localhost:8000/createEvent', body );
 
     }
 
